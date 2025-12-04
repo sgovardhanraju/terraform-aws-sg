@@ -1,18 +1,19 @@
+# copied from daws86s git repository
 variable "project_name" {
-    type = string
+  type = string
 }
 
-variable "environment"{
-    type = string
+variable "environment" {
+  type = string
 }
 
 variable "sg_name" {
-    type = string
+  type        = string
 }
 
 variable "sg_description" {
-    type = string
-    default = ""
+  type        = string
+  default = ""
 }
 
 variable "vpc_id" {
@@ -20,6 +21,6 @@ variable "vpc_id" {
 }
 
 variable "sg_tags" {
-    type =map 
+    type = map
     default = {}
 }
